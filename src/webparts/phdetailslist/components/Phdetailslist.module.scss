@@ -1,0 +1,157 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+:global {
+  @import '~office-ui-fabric-react/dist/sass/References.scss';
+  @import "node_modules/@fluentui/react/dist/css/fabric.css";
+  @import "~@fontsource/lexend-deca/index.css"; // Weight 400.
+  @import "~@fontsource/lexend-deca/300-italic.css";
+
+
+
+  /*width*/
+  ::-webkit-scrollbar {
+
+    width: 6px !important;
+
+    height: 6px !important;
+
+  }
+
+  /*Track*/
+  ::-webkit-scrollbar-track {
+
+    background: #f1f1f1 !important;
+
+    border-radius: 4px !important;
+
+  }
+
+  /*Handle*/
+  ::-webkit-scrollbar-thumb {
+
+    background: #c0c9d2 0% 0% no-repeat padding-box !important;
+
+    border-radius: 25px !important;
+
+    opacity: 1 !important;
+
+  }
+
+  .taskModalContainer {
+    width: 970px !important;
+    height: 651px !important;
+    overflow-y: hidden !important;
+  }
+
+  .detailslistStack {
+    width: 910px !important;
+    height: 295px !important;
+    padding-bottom: 45px !important;
+  }
+
+  // .detailslist {
+
+  // }
+
+  .detailslistheader {
+    // font: normal normal bold 16px Segoe UI;
+    align-self: center !important;
+    text-align: left !important;
+    font: normal normal normal 12px Segoe UI !important;
+    letter-spacing: 0px !important;
+    color: #508098 !important;
+    text-transform: capitalize !important;
+    opacity: 1 !important;
+  }
+
+  .detailslistaddiconheader .ms-DetailsHeader-cellName {
+    font-size: 23px !important;
+    align-self: center !important;
+  }
+
+  .detailslistaddicon {
+    align-self: center !important;
+  }
+
+  .detailslistaddiconheader {
+    // font: normal normal bold 16px Segoe UI;
+    align-self: center !important;
+    font-size: 30px !important;
+    text-align: left;
+    font: normal normal normal 16px/23px Fabric External MDL2 Assets !important;
+    letter-spacing: 0px !important;
+    color: #15A69C !important;
+    opacity: 1 !important;
+  }
+
+  .ms-Checkbox-checkbox {
+    width: 18px !important;
+    height: 18px !important;
+  }
+
+  .actioncolumn {
+    align-self: center !important;
+    text-align: center !important;
+    // width: 84px !important;
+  }
+
+  .ms-DetailsList-contentWrapper {
+    height: 188px !important;
+    overflow-y: scroll !important;
+    overflow-x: hidden !important;
+    // width: 910px !important;
+  }
+  .actioncolumnHeader{ 
+    padding-left: 25px !important;
+  }
+  .actioncolumnHeader .ms-DetailsHeader-cellTitle{
+    padding-left: 25px !important;
+  }
+  .TaskLabelStackitem {
+    // padding-left: 30px !important;
+    padding-top: 39px !important;
+    padding-bottom: 25px !important;
+  }
+
+  .ms-DetailsHeader-cellName {
+    align-self: center !important;
+    flex: 0 1 auto;
+    overflow: initial !important;
+    text-overflow: ellipsis !important;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+  }
+
+  .TaskLabel {
+    text-align: left !important;
+    font: normal normal 600 28px Segoe UI !important;
+    letter-spacing: 0 !important;
+    color: #15a69c !important;
+    opacity: 1 !important;
+  }
+
+  .taskModalCloseIconStackitem {
+    float: right !important;
+    padding-left: 75px !important;
+    padding-top: 20px !important;
+    // padding-right: 20px !important;
+  }
+
+  .taskModalAllLabels {
+    text-align: left !important;
+    font: normal normal bold 12px Segoe UI !important;
+    letter-spacing: 0px !important;
+    color: #508098 !important;
+    opacity: 1 !important;
+  }
+
+  .DatePicker {
+    width: 214px !important;
+    height: 32px !important;
+    background: #FFFFFF !important;
+    border: 1px solid #E5ECF0 !important;
+    border-radius: 4px !important;
+    opacity: 1 !important;
+  }
+
+}
